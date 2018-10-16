@@ -4,12 +4,12 @@
 
 Using only `for` loops, write each of the following methods
 
-a. A function that simulates `forEach`
-b. A function that simulates `map`
-c. A function that simulates `filter`
-d. A function that simulates `find`
-e. A function that simulates `reduce`
-f. A function that takes an object and creates an array of arrays using key-value pairs:
+- a. A function that simulates `forEach`
+- b. A function that simulates `map`
+- c. A function that simulates `filter`
+- d. A function that simulates `find`
+- e. A function that simulates `reduce`
+- f. A function that takes an object and creates an array of arrays using key-value pairs:
 
 ```
 ex. 
@@ -24,7 +24,7 @@ ex.
 ]
 ```
 
-g. Extend the above example so that it works on nested objects as well. Write it so that it can work on any nested object, no matter how deeply nested it is.
+- g. Extend the above example so that it works on nested objects as well. Write it so that it can work on any nested object, no matter how deeply nested it is.
 
 ```
 ex. 
@@ -43,7 +43,7 @@ ex.
 
 #### 2. Objects
 
-a. Inspect the data below: 
+- a. Inspect the data below: 
 
 ```js
 	let data = [
@@ -96,7 +96,7 @@ a. Inspect the data below:
 
 Write a function that takes this data as an argument and returns an object with a key for each unique species. Each key should point to an array containing all objects having that species. Each object should also be assigned a unique ID. (i.e. the first object in the array of dogs should have an id of 1, the next 2, etc.). This function should not be specific to this data set and should be written to accomodate any number of different spcies.
 
-b. Write a function that takes an array of sentences and returns an object in which the keys are all of the unique words in all of the sentences, with values of arrays pointing to objects containing both the index of the sentence that contained it and the index of the word within the sentence. Make sure to ignore punctuation and capitalization.
+- b. Write a function that takes an array of sentences and returns an object in which the keys are all of the unique words in all of the sentences, with values of arrays pointing to objects containing both the index of the sentence that contained it and the index of the word within the sentence. Make sure to ignore punctuation and capitalization.
 
 ```
 ex.
@@ -118,7 +118,7 @@ ex.
 }
 ```
 
-c. Take the above example and write a function that takes an array of sentences and returns an object containing data about that array of sentences.
+- c. Take the above example and write a function that takes an array of sentences and returns an object containing data about that array of sentences.
 
 ```
 [
